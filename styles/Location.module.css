@@ -1,0 +1,82 @@
+.container {
+  padding: 40px 70px;
+  background: linear-gradient(155deg,#ed9106 0%,#ed9106 31.2%,#d1411e 30%,#d1411e 100%);
+  flex-direction: column;
+}
+.container2{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+}
+.title{
+    color: rgb(255, 251, 251);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+}
+.Arad{
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 25%;
+  padding: 50px 0px;
+  border-radius: 45px;
+  margin: 20px;
+  transition: transform 0.5s;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.241),rgba(0, 0, 0, 0.215)),url(/img/Arad.jpg);
+}
+.Arad:hover{
+  transform: translateY(-10px);
+}
+.Timisoara{
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 25%;
+  padding: 50px 0px;
+  border-radius: 45px;
+  margin: 20px;
+  transition: transform 0.5s;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.241),rgba(0, 0, 0, 0.215)),url(/img/Timisoara.jpg);
+}
+.Timisoara:hover{
+  transform: translateY(-10px);
+}
+.Oradea{
+  -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000;
+  width: 25%;
+  padding: 50px 0px;
+  border-radius: 45px;
+  margin: 20px;
+  transition: transform 0.5s;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.241),rgba(0, 0, 0, 0.215)),url(/img/Oradea.jpg);
+}
+.Oradea:hover{
+  transform: translateY(-10px);
+}
+@media screen and (max-width: 480px) {
+  .container{
+      padding: 30px;
+      background: linear-gradient(120.5deg,#ed9106 0%,#ed9106 31.2%,#d1411e 30%,#d1411e 100%);
+  }
+  .container2{
+      flex-direction: column;
+  }
+  .Arad{
+      width:130%;
+  }
+  .Timisoara{
+      width: 130%;
+  }
+  .Oradea{
+      width: 130%;
+  }
+}
